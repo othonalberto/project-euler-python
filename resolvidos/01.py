@@ -12,3 +12,7 @@ for x in range(1, 1000):
         sum += x
 
 print(sum) #233168
+
+
+# versão de uma linha - dica do @IuryAlves
+# print ( sum(x for x in range(1, 1000) if x % 3 == 0 or x % 5 == 0) )
